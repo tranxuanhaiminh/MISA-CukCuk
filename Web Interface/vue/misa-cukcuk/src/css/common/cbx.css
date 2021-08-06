@@ -1,0 +1,101 @@
+.misa-cbx-wrapper {
+    user-select: none;
+    height: 40px;
+    width: 200px;
+    margin: 0px 12px;
+}
+
+.misa-cbx {
+    position: relative;
+    display: flex;
+    height: 40px;
+    /* flex-direction: column; */
+    border: none;
+}
+
+.misa-cbx-select {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+    font-family: GoogleSans-Regular;
+    font-size: 13px;
+    color: #000000;
+    width: calc(100% - 40px);
+    background: #ffffff;
+    border: 1px solid #bbbbbb;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    outline: none;
+}
+
+.misa-cbx-select::placeholder {
+    font-size: 11px;
+    color: #bbbbbb;
+    font-family: GoogleSans-Regular;
+}
+
+.misa-cbx-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    border: none;
+    border-radius: 4px;
+    padding: 4px 0px;
+    background: #ffffff;
+    visibility: hidden;
+    z-index: 1;
+}
+
+.misa-cbx.misa-cbx-opened .misa-cbx-list {
+    visibility: visible;
+}
+
+.misa-cbx-option {
+    display: block;
+    padding-left: 36px;
+    font-size: 13px;
+    font-family: GoogleSans-Regular;
+    color: #000000;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.misa-cbx-option:hover {
+    background-color: #e9ebee;
+}
+
+.misa-cbx-option.misa-cbx-selected {
+    background-image: url('../../icon/btn-next-page.svg');
+    background-repeat: no-repeat;
+    background-position: center left 6px;
+    color: #ffffff;
+    background-color: #019160;
+}
+
+.misa-cbx-arrow {
+    position: relative;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background: #ffffff;
+    cursor: pointer;
+    border: 1px solid #bbbbbb;
+    border-bottom: none;
+    border-radius: 0px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    background: url('../../icon/btn-next-page.svg') center no-repeat;
+    transform: rotateZ(90deg);
+    transition: all;
+}
+
+.misa-cbx-opened .misa-cbx-arrow {
+    transform: rotateZ(-90deg);
+    border-top: none;
+    border-bottom: 1px solid #bbbbbb;
+    border-radius: 0px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}

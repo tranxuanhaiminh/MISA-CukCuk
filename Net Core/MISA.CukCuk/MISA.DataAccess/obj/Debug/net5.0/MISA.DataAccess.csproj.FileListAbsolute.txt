@@ -1,0 +1,15 @@
+E:\Home\Minh\Documents\MISA-INTERN\Net Core\MISA.CukCuk\MISA.DataAccess\obj\Debug\net5.0\MISA.DataAccess.csproj.AssemblyReference.cache
+E:\Home\Minh\Documents\MISA-INTERN\Net Core\MISA.CukCuk\MISA.DataAccess\obj\Debug\net5.0\MISA.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+E:\Home\Minh\Documents\MISA-INTERN\Net Core\MISA.CukCuk\MISA.DataAccess\obj\Debug\net5.0\MISA.DataAccess.AssemblyInfoInputs.cache
+E:\Home\Minh\Documents\MISA-INTERN\Net Core\MISA.CukCuk\MISA.DataAccess\obj\Debug\net5.0\MISA.DataAccess.AssemblyInfo.cs
+E:\Home\Minh\Documents\MISA-INTERN\Net Core\MISA.CukCuk\MISA.DataAccess\obj\Debug\net5.0\MISA.DataAccess.csproj.CoreCompileInputs.cache
+E:\Home\Minh\Documents\MISA-INTERN\Net Core\MISA.CukCuk\MISA.DataAccess\bin\Debug\net5.0\MISA.DataAccess.deps.json
+E:\Home\Minh\Documents\MISA-INTERN\Net Core\MISA.CukCuk\MISA.DataAccess\bin\Debug\net5.0\MISA.DataAccess.dll
+E:\Home\Minh\Documents\MISA-INTERN\Net Core\MISA.CukCuk\MISA.DataAccess\bin\Debug\net5.0\ref\MISA.DataAccess.dll
+E:\Home\Minh\Documents\MISA-INTERN\Net Core\MISA.CukCuk\MISA.DataAccess\bin\Debug\net5.0\MISA.DataAccess.pdb
+E:\Home\Minh\Documents\MISA-INTERN\Net Core\MISA.CukCuk\MISA.DataAccess\bin\Debug\net5.0\MISA.Common.dll
+E:\Home\Minh\Documents\MISA-INTERN\Net Core\MISA.CukCuk\MISA.DataAccess\bin\Debug\net5.0\MISA.Common.pdb
+E:\Home\Minh\Documents\MISA-INTERN\Net Core\MISA.CukCuk\MISA.DataAccess\obj\Debug\net5.0\MISA.DataAccess.csproj.CopyComplete
+E:\Home\Minh\Documents\MISA-INTERN\Net Core\MISA.CukCuk\MISA.DataAccess\obj\Debug\net5.0\MISA.DataAccess.dll
+E:\Home\Minh\Documents\MISA-INTERN\Net Core\MISA.CukCuk\MISA.DataAccess\obj\Debug\net5.0\ref\MISA.DataAccess.dll
+E:\Home\Minh\Documents\MISA-INTERN\Net Core\MISA.CukCuk\MISA.DataAccess\obj\Debug\net5.0\MISA.DataAccess.pdb

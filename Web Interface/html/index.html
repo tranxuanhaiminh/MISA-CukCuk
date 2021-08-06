@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>MISACukCuk - Phần mềm quản lý nhà hàng</title>
+    <link rel="stylesheet" href="/css/common/main.css">
+    <link rel="stylesheet" href="/css/common/input.css">
+    <link rel="stylesheet" href="/css/common/btn.css">
+    <link rel="stylesheet" href="/css/common/drop.css">
+    <link rel="stylesheet" href="/css/common/grid.css">
+    <link rel="stylesheet" href="/css/common/paging.css">
+    <link rel="stylesheet" href="/css/common/form.css">
+    <link rel="stylesheet" href="/css/layout/header.css">
+    <link rel="stylesheet" href="/css/layout/menu.css">
+    <link rel="stylesheet" href="/css/layout/page.css">
+    <link rel="stylesheet" href="/css/common/cbx.css">
+</head>
+
+<body>
+    <div class="header">
+        <span class="header-left">
+            <div class="sidebar"></div>
+            <div class="logo"></div>
+        </span>
+        <div class="header-right">
+            <div class="header-right-menu">
+                <select class="header-right-menu-select text-labelfieldinput">
+                    <option value="BienDong">Nhà hàng Biển Đông</option>
+                </select>
+            </div>
+            <div class="user">
+                <div class="user-option"></div>
+                <div class="text-label">Nguyễn Văn Mạnh</div>
+                <div class="user-icon"></div>
+            </div>
+        </div>
+    </div>
+    <div class="menu">
+        <a class="menu-item text-bodycontent">
+            <div class="menu-item-icon icon-dashboard"></div>
+            <div>Tổng quan</div>
+        </a>
+        <a class="menu-item text-bodycontent">
+            <div class="menu-item-icon icon-report"></div>
+            <div>Báo cáo</div>
+        </a>
+        <a class="menu-item text-bodycontent">
+            <div class="menu-item-icon icon-shop"></div>
+            <div>Mua hàng</div>
+        </a>
+        <a class="menu-item text-bodycontent">
+            <div class="menu-item-icon icon-employee"></div>
+            <div autofocus>Danh mục nhân viên</div>
+        </a>
+        <a class="menu-item text-bodycontent">
+            <div class="menu-item-icon icon-settings"></div>
+            <div>Thiết lập hệ thống</div>
+        </a>
+    </div>
+    <div class="page">
+        <div class="page-head">
+            <div class="page-head-text text-heading">Danh sách nhân viên</div>
+            <button id="addEmp" class="misa-btn misa-iconbtn">
+                <div class="page-head-iconbtn-icon misa-iconbtn-icon"></div>
+                <div class="misa-iconbtn-text">Thêm nhân viên</div>
+            </button>
+        </div>
+
+        <div class="page-search">
+            <div class="page-search-filter">
+
+                <span class="misa-input-search">
+                    <input type="text" class="misa-input-text" placeholder="Tìm kiếm theo Mã, Tên hoặc Số điện thoại">
+                    <button class="misa-input-clearer"></button>
+                </span>
+
+                <div class="misa-cbx-wrapper">
+                    <div class="misa-cbx">
+                        <input class="misa-cbx-select" value="Tất cả phòng ban">
+                        <div class="misa-cbx-arrow"></div>
+                        <div class="misa-cbx-list">
+                            <span class="misa-cbx-option misa-cbx-selected">Tất cả phòng ban</span>
+                            <span class="misa-cbx-option">Phòng đào tạo</span>
+                            <span class="misa-cbx-option">Phòng tuyển sinh</span>
+                            <span class="misa-cbx-option">Ban ngiệp vụ</span>
+                            <span class="misa-cbx-option">Ban kế toán</span>
+                            <span class="misa-cbx-option">Ban giám đốc</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="misa-cbx-wrapper">
+                    <div class="misa-cbx">
+                        <input class="misa-cbx-select" value="Tất cả vị trí">
+                        <div class="misa-cbx-arrow"></div>
+                        <div class="misa-cbx-list">
+                            <span class="misa-cbx-option misa-cbx-selected">Tất cả vị trí</span>
+                            <span class="misa-cbx-option">Trưởng phòng</span>
+                            <span class="misa-cbx-option">Phó phòng</span>
+                            <span class="misa-cbx-option">Nhân viên</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <button id="refresh-info" class="misa-btn misa-secondbtn refreshbtn"></button>
+        </div>
+        <div class="grid text-label">
+            <table border="0" width="100%" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th fieldname="EmployeeCode">Mã nhân viên</th>
+                        <th fieldname="FullName">Họ và tên</th>
+                        <th fieldname="GenderName">Giới tính</th>
+                        <th fieldname="DateOfBirth">Ngày sinh</th>
+                        <th fieldname="PhoneNumber">Số điện thoại</th>
+                        <th fieldname="Email">Email</th>
+                        <th fieldname="QualificationName">Chức vụ</th>
+                        <th fieldname="PositionName">Phòng ban</th>
+                        <th fieldname="Salary">Mức lương cơ bản</th>
+                        <th fieldname="WorkStatus">Tình trạng công việc</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+        <div class="misa-pagingbar">
+            <div class="misa-pagingbar-leftinfo text-contentdetail">Hiển thị 1-10/1000 nhân viên</div>
+            <div class="misa-pagingbar-pagination">
+                <a href="#" class="misa-pagination  misa-pagination-icon  misa-pagination-firstpage"></a>
+                <a href="#" class="misa-pagination  misa-pagination-icon  misa-pagination-prevpage"></a>
+                <a href="#" class="misa-pagination  misa-pagination-number misa-paging-selected">1</a>
+                <a href="#" class="misa-pagination  misa-pagination-number ">2</a>
+                <a href="#" class="misa-pagination  misa-pagination-number ">3</a>
+                <a href="#" class="misa-pagination  misa-pagination-number ">4</a>
+                <a href="#" class="misa-pagination  misa-pagination-icon  misa-pagination-nextpage"></a>
+                <a href="#" class="misa-pagination  misa-pagination-icon  misa-pagination-lastpage"></a>
+            </div>
+            <div class="misa-pagingbar-rightinfo text-contentdetail">10 nhân viên/trang</div>
+        </div>
+    </div>
+
+    <div class="employee-details">
+        <div class="popupbackgr"></div>
+        <div class="form">
+            <div class="form-header text-title2">THÔNG TIN NHÂN VIÊN
+                <button id="form-close" class="form-close"></button>
+            </div>
+            <div class="form-body">
+                <div class="form-body-profilepic">
+                    <div class="form-body-profilepic-pic"></div>
+                    <div class="text-bodycontent">(Vui lòng chọn ảnh có định dạng .jpg, .jpeg, .png, .gif)</div>
+                </div>
+                <div class="form-body-information">
+                    <div class="form-body-info-title text-labelfieldinput">A.THÔNG TIN CHUNG:</div>
+                    <div class="form-body-info-detail">
+                        <div class="text-labelfieldinput">
+                            <span>Mã nhân viên</span><span class="text-required">(*)</span>
+                        </div>
+                        <input type="text" id="EmployeeCode" class="form-body-info-input misa-input input-required">
+                    </div>
+                    <div class="form-body-info-detail">
+                        <div class="text-labelfieldinput">
+                            <span>Họ và tên</span><span class="text-required">(*)</span>
+                        </div>
+                        <input type="text" id="FullName" class="form-body-info-input misa-input input-required">
+                    </div>
+                    
+                    
+                    <div class="form-body-info-detail">
+                        <div class=" text-labelfieldinput">Ngày sinh</div>
+                        <input type="date" id="DateOfBirth" class="form-body-info-input misa-input">
+                    </div>
+                    
+                    <div class="form-body-info-detail">
+                        <div class="text-labelfieldinput">Giới tính</div>
+                        <input type="text" id="GenderName" class="form-body-info-input misa-input">
+                    </div>
+                    
+                    <div class="form-body-info-detail">
+                        <div class="text-labelfieldinput">
+                            <span>Số CMND/Căn cước</span><span class="text-required">(*)</span>
+                        </div>
+                        <input type="text" id="IdentityNumber" class="form-body-info-input misa-input input-required">
+                    </div>
+                    
+                    <div class="form-body-info-detail">
+                        <div class="text-labelfieldinput">Ngày cấp</div>
+                        <input type="date" id="IdentityDate" class="form-body-info-input misa-input">
+                    </div>
+                    
+                    <div class="form-body-info-detail">
+                        <div class="text-labelfieldinput">Nơi cấp</div>
+                        <input type="text" id="IdentityPlace" class="form-body-info-input misa-input">
+                    </div>
+                    
+                    <div class="form-body-info-detail">
+                        <div class="text-labelfieldinput">
+                            <span>Email</span><span class="text-required">(*)</span>
+                        </div>
+                        <input type="email" id="Email" class="form-body-info-input misa-input input-required">
+                    </div>
+                    
+                    <div class="form-body-info-detail">
+                        <div class="text-labelfieldinput">
+                            <span>Số điện thoại</span><span class="text-required">(*)</span>
+                        </div>
+                        <input type="text" id="PhoneNumber" class="form-body-info-input misa-input input-required">
+                    </div>
+
+                    <div class="form-body-info-title text-labelfieldinput">B.THÔNG TIN CÔNG VIỆC:</div>
+
+                    <div class="form-body-info-detail">
+                        <div class="text-labelfieldinput">Vị trí</div>
+                        <input type="text" id="QualificationName" class="form-body-info-input misa-input">
+                    </div>
+
+                    <div class="form-body-info-detail">
+                        <div class="text-labelfieldinput">Phòng ban</div>
+                        <input type="text" id="PositionName" class="form-body-info-input misa-input">
+                    </div>
+
+                    <div class="form-body-info-detail">
+                        <div class="text-labelfieldinput">Mã số thuế cá nhân</div>
+                        <input type="text" id="PersonalTaxCode" class="form-body-info-input misa-input">
+                    </div>
+
+                    <div class="form-body-info-detail">
+                        <div class="text-labelfieldinput">Mức lương cơ bản</div>
+                        <input type="text" id="Salary" class="form-body-info-input misa-input">
+                    </div>
+
+                    <div class="form-body-info-detail">
+                        <div class="text-labelfieldinput">Ngày gia nhập công ty</div>
+                        <input type="date" id="JoinDate" class="form-body-info-input misa-input">
+                    </div>
+
+                    <div class="form-body-info-detail">
+                        <div class="text-labelfieldinput">Tình trạng công việc</div>
+                        <input type="text" id="WorkStatus" class="form-body-info-input misa-input">
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="form-footer">
+                <button id="form-save" class="misa-btn misa-iconbtn">
+                    <div class="form-footer-saveiconbtn-icon misa-iconbtn-icon"></div>
+                    <div class="misa-iconbtn-text">Lưu</div>
+                </button>
+                <button id="form-cancel" class="misa-btn misa-secondbtn">Hủy</button>
+            </div>
+        </div>
+    </div>
+    <script src="/lib/jquery-3.6.0.min.js"></script>
+    <script src="/jquery-ui-1.12.1.custom/external/jquery/jquery.js"></script>
+    <script src="/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
+    <script src="/js/common/common.js"></script>
+    <script src="/js/page/employee.js"></script>
+
+</body>
+
+</html>

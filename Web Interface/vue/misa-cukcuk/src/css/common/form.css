@@ -1,0 +1,123 @@
+.employee-details{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    /* display: none; */
+}
+
+.popupbackgr {
+    opacity: 0.5;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: #000000;
+}
+
+.form {
+    position: absolute;
+    width: 700px;
+    height: 848.667px;
+    top: 50%;
+    left: 50%;
+    margin: -424.333px 0 0 -350px;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
+.form-header {
+    width: 100%;
+    padding: 24px 64px 0px 24px;
+    height: 50px;
+}
+
+.form-close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    background-image: url('../../icon/x.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-color: #ffffff;
+}
+
+.form-close:hover {
+    background-color: #e5e5e5;
+}
+
+.form-body {
+    width: 100%;
+    height: calc(100% - 110px);
+    padding: 24px;
+}
+
+.form-body-profilepic {
+    height: 100%;
+    width: 150px;
+    text-align: center;
+}
+
+.form-body-profilepic-pic {
+    height: 150px;
+    border: 1px solid #e5e5e5;
+    border-radius: 75px;
+    background-image: url('../../img/default-avatar.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.form-body-information {
+    position: absolute;
+    top: 50px;
+    left: 174px;
+    height: calc(100% - 110px);
+    width: calc(100% - 174px);
+    padding: 0px 16px 24px 16px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-body-info-title {
+    width: 100%;
+    margin: 24px 8px 0px 8px;
+    display: inline-block;
+}
+
+.form-body-info-detail {
+    margin: 16px 8px 0px 8px;
+    width: 231px;
+    display: inline-block;
+}
+
+.form-body-info-input {
+    border: 1px solid #e5e5e5;
+    margin-top: 4px;
+    width: 229px;
+    display: inline-block;
+    outline: none;
+}
+
+.form-body-info-input:focus {
+    border: 1px solid #019160;
+}
+
+.form-footer {
+    background-color: #e9ebee;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    padding: 12px 0px;
+}
+
+.form-footer-saveiconbtn-icon {
+    background-image: url('../../icon/refresh.png');
+}

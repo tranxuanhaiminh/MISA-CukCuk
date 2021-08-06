@@ -1,0 +1,48 @@
+.page{
+    background-color: #E9EBEE;
+    position: absolute;
+    left: 225px;
+    top: 48px;
+    width: calc(100% - 226px);
+    height: calc(100% - 51px);
+}
+
+.page .page-head{
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.page .page-head .page-head-text{
+    position: absolute;
+    padding: 10px 16px;
+    float: left;
+}
+
+.page-head-iconbtn-icon{
+    background: url('/icon/add.png') no-repeat;
+}
+
+.page .page-search{
+    width: 100%;
+    height: 48px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 16px;
+}
+
+.page-search-filter{
+    display: flex;
+    align-items: center;
+}
+
+.page .page-search .refreshbtn{
+    background-image: url('/icon/refresh.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.page .grid{
+    top: 124px;
+    bottom: 56px;
+}

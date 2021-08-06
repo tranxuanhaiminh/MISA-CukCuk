@@ -1,0 +1,79 @@
+.misa-pagingbar{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 56px;
+    bottom: 0;
+}
+
+.misa-pagingbar-pagination{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.misa-pagingbar-leftinfo{
+    margin: 16px;
+}
+
+.misa-pagingbar-rightinfo{
+    margin: 16px;
+}
+
+a.misa-pagination{
+    display: block;
+    width: 36px;
+    height: 36px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+a.misa-pagination:not(.misa-paging-selected){
+    color:#000000;
+}
+
+a.misa-pagination:not(.misa-paging-selected):hover{
+    background-color: #ffffff;
+}
+
+a.misa-pagination:not(.misa-paging-selected):active{
+    background-color: #ebf9f4;
+}
+
+a.misa-pagination-number{
+    border-radius: 18px;
+    padding: 7.5px 13px;
+    border: 1px solid #bbbbbb;
+    text-decoration: none;
+}
+
+a.misa-pagination-icon{
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 4px;
+}
+
+.misa-paging-selected{
+    background-color: #019160;
+    color: #ffffff;
+}
+
+a.misa-pagination-firstpage{
+    background-image: url('../../icon/btn-firstpage.svg');
+}
+
+a.misa-pagination-prevpage{
+    background-image: url('../../icon/btn-prev-page.svg');
+}
+
+a.misa-pagination-nextpage{
+    background-image: url('../../icon/btn-next-page.svg');
+}
+
+a.misa-pagination-lastpage{
+    background-image: url('../../icon/btn-lastpage.svg');
+}

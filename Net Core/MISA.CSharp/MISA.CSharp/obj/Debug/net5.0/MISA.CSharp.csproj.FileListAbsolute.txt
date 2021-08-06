@@ -1,0 +1,16 @@
+E:\Home\Minh\Documents\MISA-INTERN\Net Core\MISA.CSharp\MISA.CSharp\bin\Debug\net5.0\MISA.CSharp.exe
+E:\Home\Minh\Documents\MISA-INTERN\Net Core\MISA.CSharp\MISA.CSharp\bin\Debug\net5.0\MISA.CSharp.deps.json
+E:\Home\Minh\Documents\MISA-INTERN\Net Core\MISA.CSharp\MISA.CSharp\bin\Debug\net5.0\MISA.CSharp.runtimeconfig.json
+E:\Home\Minh\Documents\MISA-INTERN\Net Core\MISA.CSharp\MISA.CSharp\bin\Debug\net5.0\MISA.CSharp.runtimeconfig.dev.json
+E:\Home\Minh\Documents\MISA-INTERN\Net Core\MISA.CSharp\MISA.CSharp\bin\Debug\net5.0\MISA.CSharp.dll
+E:\Home\Minh\Documents\MISA-INTERN\Net Core\MISA.CSharp\MISA.CSharp\bin\Debug\net5.0\ref\MISA.CSharp.dll
+E:\Home\Minh\Documents\MISA-INTERN\Net Core\MISA.CSharp\MISA.CSharp\bin\Debug\net5.0\MISA.CSharp.pdb
+E:\Home\Minh\Documents\MISA-INTERN\Net Core\MISA.CSharp\MISA.CSharp\obj\Debug\net5.0\MISA.CSharp.csproj.AssemblyReference.cache
+E:\Home\Minh\Documents\MISA-INTERN\Net Core\MISA.CSharp\MISA.CSharp\obj\Debug\net5.0\MISA.CSharp.GeneratedMSBuildEditorConfig.editorconfig
+E:\Home\Minh\Documents\MISA-INTERN\Net Core\MISA.CSharp\MISA.CSharp\obj\Debug\net5.0\MISA.CSharp.AssemblyInfoInputs.cache
+E:\Home\Minh\Documents\MISA-INTERN\Net Core\MISA.CSharp\MISA.CSharp\obj\Debug\net5.0\MISA.CSharp.AssemblyInfo.cs
+E:\Home\Minh\Documents\MISA-INTERN\Net Core\MISA.CSharp\MISA.CSharp\obj\Debug\net5.0\MISA.CSharp.csproj.CoreCompileInputs.cache
+E:\Home\Minh\Documents\MISA-INTERN\Net Core\MISA.CSharp\MISA.CSharp\obj\Debug\net5.0\MISA.CSharp.dll
+E:\Home\Minh\Documents\MISA-INTERN\Net Core\MISA.CSharp\MISA.CSharp\obj\Debug\net5.0\ref\MISA.CSharp.dll
+E:\Home\Minh\Documents\MISA-INTERN\Net Core\MISA.CSharp\MISA.CSharp\obj\Debug\net5.0\MISA.CSharp.pdb
+E:\Home\Minh\Documents\MISA-INTERN\Net Core\MISA.CSharp\MISA.CSharp\obj\Debug\net5.0\MISA.CSharp.genruntimeconfig.cache

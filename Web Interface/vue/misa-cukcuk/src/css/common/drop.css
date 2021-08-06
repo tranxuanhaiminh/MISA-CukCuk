@@ -1,0 +1,29 @@
+.misa-combobox-label{
+    font-size: 13px;
+    color: #000000;
+    font-family: GoogleSans-Medium;
+}
+
+.misa-combobox-box{
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    height: 40px;
+    font-size: 11px;
+    color: #bbbbbb;
+    font-family: GoogleSans-Regular;
+}
+
+.misa-dropdown{
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    height: 40px;
+    font-size: 13px;
+    color: #000000;
+    font-family: GoogleSans-Regular;
+    margin: 0px 12px;
+    padding-left: 16px;
+    padding-right: 40px;
+    appearance: none;
+    background: url('../../icon/btn-next-page.svg') calc(100% - 12px) center no-repeat;
+    background-size: 16px;
+}

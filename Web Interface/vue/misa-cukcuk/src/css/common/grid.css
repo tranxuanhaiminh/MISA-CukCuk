@@ -1,0 +1,31 @@
+.grid {
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    display: flex;
+    padding: 16px;
+}
+
+table th, td {
+    border-bottom: 1px solid #bbbbbb;
+    padding: 14px 16px;
+    text-align: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: top;
+}
+
+table td {
+    max-width: 150px;
+}
+
+tbody tr:hover {
+    background-color: #bbbbbb;
+    cursor: pointer;
+}
+
+tbody tr:active {
+    background-color: #ebf9f4;
+    cursor: pointer;
+}
