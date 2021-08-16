@@ -2,7 +2,7 @@
   <div id="app">
     <TheHeader />
     <TheMenu />
-    <ThePage @showForm="showFormNew" @showFormDetails="showFormDetails" />
+    <TheContent @showForm="showFormNew" @showFormDetails="showFormDetails"/>
     <EmployeeDetail v-show="isShow" @closeForm="closeForm" :employee = "employee"/>
   </div>
 </template>
@@ -10,16 +10,16 @@
 <script>
 import TheHeader from "./components/layout/TheHeader.vue";
 import TheMenu from "./components/layout/TheMenu.vue";
-import ThePage from "./components/layout/ThePage.vue";
 import EmployeeDetail from "./views/employee/EmployeeDetail.vue";
+import TheContent from "./components/layout/ThePage.vue";
 
 export default {
   name: "App",
   components: {
     TheHeader,
     TheMenu,
-    ThePage,
     EmployeeDetail,
+    TheContent,
   },
 
   data() {

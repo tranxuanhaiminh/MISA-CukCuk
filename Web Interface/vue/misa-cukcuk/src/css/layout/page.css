@@ -3,8 +3,8 @@
     position: absolute;
     left: 225px;
     top: 48px;
-    width: calc(100% - 226px);
-    height: calc(100% - 51px);
+    width: calc(100% - 225px);
+    height: calc(100% - 48px);
 }
 
 .page .page-head{
@@ -29,11 +29,11 @@
     display: flex;
     justify-content: space-between;
     padding: 0px 16px;
+    align-items: center;
 }
 
 .page-search-filter{
     display: flex;
-    align-items: center;
 }
 
 .page .page-search .refreshbtn{

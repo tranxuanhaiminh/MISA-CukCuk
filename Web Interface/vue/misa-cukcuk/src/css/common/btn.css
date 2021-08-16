@@ -32,15 +32,15 @@
     padding-left: 8px;
 }
 
-.misa-normalbtn:hover{
+.misa-normalbtn:hover, .misa-normalbtn:focus{
     background-color: #2fbe8e;
 }
 
-.misa-iconbtn:hover{
+.misa-iconbtn:hover, .misa-iconbtn:focus{
     background-color: #2fbe8e;
 }
 
-.misa-secondbtn:hover{
+.misa-secondbtn:hover, .misa-secondbtn:focus{
     background-color: #e9ebee;
 }
 

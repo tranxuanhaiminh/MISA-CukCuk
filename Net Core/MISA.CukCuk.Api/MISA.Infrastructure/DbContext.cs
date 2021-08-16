@@ -155,22 +155,22 @@ namespace MISA.Infrastructure
         /// <param name="entityCode"> Mã nhân viên cần kiểm tra</param>
         /// <returns> Boolean - Có bị trùng hay không </returns>
         /// CreatedBy: TXHMinh (05/08/2021)
-        public bool CheckDuplicateEntityCode(string entityCode)
+        public bool CheckDuplicate(string value, string propName)
         {
             // Truy cập Database check xem mã nhân viên đã có hay chưa;
             // Khai báo câu lệnh truy vấn dữ liệu
             var className = typeof(MISAEntity).Name;
-            var sqlCommand = $"SELECT {className}Code FROM {className} WHERE {className}Code = @{className}Code";
+            var sqlCommand = $"SELECT {className}Code FROM {className} WHERE {propName} = @{propName}";
 
             // Tạo parameters cho câu lệnh truy vấn
             DynamicParameters parameters = new();
-            parameters.Add($"@{className}Code", entityCode);
+            parameters.Add($"@{propName}", value);
 
             // Thực hiện truy vấn dữ liệu kiểm tra
-            var isDuplicate = DbConnection.QueryFirstOrDefault<string>(sql: sqlCommand, param: parameters);
+            var obj = DbConnection.QueryFirstOrDefault<object>(sql: sqlCommand, param: parameters);
 
             //Trả về: true - nếu mã nhân viên bị trùng, false - nếu không
-            return (isDuplicate != null);
+            return (obj != null);
         }
 
         /// <summary>

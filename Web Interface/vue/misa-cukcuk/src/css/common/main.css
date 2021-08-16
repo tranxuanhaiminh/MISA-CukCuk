@@ -6,88 +6,104 @@ body {
 
 * {
     box-sizing: border-box;
+    outline: none;
 }
 
-.text-heading{
+.text-heading {
     font-family: GoogleSans-Bold;
     font-size: 24px;
     color: #000000;
 }
 
-.text-title{
+.text-title {
     font-family: GoogleSans-Bold;
     font-size: 24px;
     color: #000000;
 }
 
-.text-title2{
+.text-title2 {
     font-family: GoogleSans-Bold;
     font-size: 20px;
     color: #000000;
 }
 
-.text-labelfieldinput{
+.text-labelfieldinput {
     font-family: GoogleSans-Medium;
     font-size: 15px;
     color: #000000;
 }
 
-.text-label{
+.text-label {
     font-family: GoogleSans-Regular;
     font-size: 13px;
     color: #454545;
 }
 
-.text-contentdetail{
+.text-contentdetail {
     font-family: GoogleSans-Medium;
     font-size: 13px;
     color: #000000;
 }
 
-.text-bodycontent{
+.text-bodycontent {
     font-family: GoogleSans-Regular;
     font-size: 13px;
     color: #454545;
 }
 
-.text-subtext{
+.text-subtext {
     font-family: GoogleSans-Regular;
     font-size: 11px;
     color: #000000;
 }
 
-.text-required{
+.text-required {
     color: red;
 }
 
-input.border-red{
-    border: 1px solid #ff4747 ;
+input.border-red {
+    border: 1px solid #ff4747;
 }
 
-input.border-red:focus{
-    border: 1px solid #ff4747 ;
+input.border-red:focus {
+    border: 1px solid #ff4747;
 }
 
 /* width */
-*::-webkit-scrollbar{
+
+*::-webkit-scrollbar {
     width: 5px;
     height: 5px;
 }
 
 /* Track */
-*::-webkit-scrollbar-track{
+
+*::-webkit-scrollbar-track {
     background: #e5e5e5;
 }
 
 /* Handle */
-*::-webkit-scrollbar-thumb{
+
+*::-webkit-scrollbar-thumb {
     background: #bbbbbb;
     border-radius: 3px;
 }
 
 /* Handle on hover */
-*::-webkit-scrollbar-thumb:hover{
-    background: #aaaaaa;                             /*need review on color */
+
+*::-webkit-scrollbar-thumb:hover {
+    background: #aaaaaa;
+    /*need review on color */
+}
+
+.misa-loading {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: .5;
 }
 
 @font-face {

@@ -10,7 +10,7 @@ namespace MISA.Core.Entities
     /// Thông tin nhân viên
     /// </summary>
     /// CreatedBy: TXHMinh (28/07/2021)
-    public class Employee: BaseEntity
+    public class Employee : BaseEntity
     {
         #region Properties
         /// <summary>
@@ -21,6 +21,9 @@ namespace MISA.Core.Entities
         /// <summary>
         /// Mã nhân viên
         /// </summary>
+        [MISARequired]
+        [MISADuplicate]
+        [MISADisplayName("Mã khách hàng")]
         public string EmployeeCode { get; set; }
 
         /// <summary>
@@ -35,7 +38,9 @@ namespace MISA.Core.Entities
 
         /// <summary>
         /// Tên đầy đủ nhân viên
-        /// </summary>
+        /// </summary>A
+        [MISARequired]
+        [MISADisplayName("Họ và tên")]
         public string FullName { get; set; }
 
         /// <summary>

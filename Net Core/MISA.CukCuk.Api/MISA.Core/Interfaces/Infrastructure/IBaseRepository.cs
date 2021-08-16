@@ -12,6 +12,6 @@ namespace MISA.Core.Interfaces.Infrastructure
         MISAEntity GetById(Guid entityId);
         int Post(MISAEntity entity);
         int DeleteById(Guid entityId);
-        bool CheckDuplicateEntityCode(string entityCode);
+        bool CheckDuplicate(string value, string propName);
     }
 }

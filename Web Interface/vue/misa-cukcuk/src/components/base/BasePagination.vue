@@ -1,7 +1,7 @@
 <template>
   <div class="misa-pagingbar">
     <div class="misa-pagingbar-leftinfo text-contentdetail">
-      Hiển thị 1-10/1000 nhân viên
+      Hiển thị 1-10/1000 {{entity}}
     </div>
     <div class="misa-pagingbar-pagination">
       <a
@@ -24,7 +24,7 @@
       ></a>
     </div>
     <div class="misa-pagingbar-rightinfo text-contentdetail">
-      10 nhân viên/trang
+      10 {{entity}}/trang
     </div>
   </div>
 </template>
@@ -32,5 +32,8 @@
 <script>
 export default {
   name: "BasePagination",
+  props: {
+    entity: String,
+  }
 };
 </script>

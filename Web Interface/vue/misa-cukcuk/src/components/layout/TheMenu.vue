@@ -6,6 +6,7 @@
       :key="item.id"
       :menuText=item.text
       :icon=item.class
+      :route=item.route
     />
   </div>
 </template>
@@ -22,11 +23,12 @@ export default {
   data() {
     return {
       items: [
-        { text: "Tổng quan", class: "icon-dashboard"},
-        { text: "Báo cáo", class: "icon-report"},
-        { text: "Mua hàng", class: "icon-shop"},
-        { text: "Danh mục nhân viên", class: "icon-employee"},
-        { text: "Thiết lập hệ thống", class: "icon-settings"},
+        { text: "Tổng quan", class: "icon-dashboard", route: "/"},
+        { text: "Báo cáo", class: "icon-report", route: "/danh-muc/nhan-vien"},
+        { text: "Mua hàng", class: "icon-shop", route: "/danh-muc/nhan-vien"},
+        { text: "Danh mục nhân viên", class: "icon-employee", route: "/danh-muc/nhan-vien"},
+        { text: "Danh mục khách hàng", class: "icon-employee", route: "/danh-muc/khach-hang"},
+        { text: "Thiết lập hệ thống", class: "icon-settings", route: "/danh-muc/nhan-vien"},
       ]
     };
   },

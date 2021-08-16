@@ -1,8 +1,8 @@
 <template>
-  <div>
+  <router-link :to=route>
     <div class="menu-item-icon" :class=icon></div>
     <div>{{ menuText }}</div>
-  </div>
+  </router-link>
 </template>
 
 <script>
@@ -10,7 +10,8 @@ export default {
   name: "MenuItem",
   props: {
     menuText: String,
-    icon:String
+    icon:String,
+    route:String
   },
 };
 </script>
