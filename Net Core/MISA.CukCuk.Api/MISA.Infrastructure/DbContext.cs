@@ -30,7 +30,7 @@ namespace MISA.Infrastructure
         {
             _connectionString = "Host = 47.241.69.179;" +
                 "Port = 3306;" +
-                "Database = MISA.CukCuk_Demo_NVMANH;" +
+                "Database = TEST.MISA.AMIS;" +
                 "User Id = dev;" +
                 "Password = 12345678;";
             DbConnection = new MySqlConnection(_connectionString);

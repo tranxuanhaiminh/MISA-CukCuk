@@ -11,18 +11,18 @@ namespace MISA.Core.Entities
         /// <summary>
         /// Ngày tạo thông tin
         /// </summary>
-        public DateTime? CreatedDate { get; set; } = DateTime.Now;
+        //public DateTime? CreatedDate { get; set; } = DateTime.Now;
         /// <summary>
         /// Người thêm thông tin
         /// </summary>
-        public string CreatedBy { get; set; }
+        //public string CreatedBy { get; set; }
         /// <summary>
         /// Ngày sửa thông tin
         /// </summary>
-        public DateTime? ModifiedDate { get; set; }
+        //public DateTime? ModifiedDate { get; set; }
         /// <summary>
         /// Người sửa thông tin
         /// </summary>
-        public string ModifiedBy { get; set; }
+        //public string ModifiedBy { get; set; }
     }
 }

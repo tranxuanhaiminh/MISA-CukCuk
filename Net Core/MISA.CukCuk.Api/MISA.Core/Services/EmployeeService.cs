@@ -60,16 +60,16 @@ namespace MISA.Core.Services
             //}
 
             // 3. Check Email nhập có hợp lệ hay không:
-            if (entity.Email != null)
-            {
-                if (!Regex.IsMatch(entity.Email, @"^[^@\s]+@[^@\s]+\.[^@\s]+$", RegexOptions.IgnoreCase))
-                {
-                    ServiceResult.Success = false;
-                    ServiceResult.MISACode = MISAConst.MISAErrorInvalidEmail;
-                    ServiceResult.UserMsg = Resources.ValidateError_InvalidEmail;
-                    return ServiceResult;
-                }
-            }
+            //if (entity.Email != null)
+            //{
+            //    if (!Regex.IsMatch(entity.Email, @"^[^@\s]+@[^@\s]+\.[^@\s]+$", RegexOptions.IgnoreCase))
+            //    {
+            //        ServiceResult.Success = false;
+            //        ServiceResult.MISACode = MISAConst.MISAErrorInvalidEmail;
+            //        ServiceResult.UserMsg = Resources.ValidateError_InvalidEmail;
+            //        return ServiceResult;
+            //    }
+            //}
             return ServiceResult;
         }
         #endregion

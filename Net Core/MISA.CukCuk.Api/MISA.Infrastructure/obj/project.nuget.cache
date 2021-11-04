@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "a17PguTbEmNa85Y16AJyb2HqCGcgI3eMtJOIgoQinYt06Ts3gEJELS9U0ZhN/ADivRTZUGLpU2TRPpaWwzSAhw==",
+  "dgSpecHash": "nS3pugjTOJGvCYoHFOYb1NInzAoBtQk4LydhaNhCZIPsqQhV1K0NRTKbauk990ILvcno0t286uup5jmB86g5Hg==",
   "success": true,
-  "projectFilePath": "E:\\Home\\Minh\\Documents\\MISA-INTERN\\Net Core\\MISA.CukCuk.Api\\MISA.Infrastructure\\MISA.Infrastructure.csproj",
+  "projectFilePath": "E:\\Home\\Minh\\Documents\\MISA-INTERN\\Exercice\\Net Core\\MISA.CukCuk.Api\\MISA.Infrastructure\\MISA.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Minh\\.nuget\\packages\\dapper\\2.0.90\\dapper.2.0.90.nupkg.sha512",
     "C:\\Users\\Minh\\.nuget\\packages\\mysqlconnector\\1.4.0-beta.1\\mysqlconnector.1.4.0-beta.1.nupkg.sha512"

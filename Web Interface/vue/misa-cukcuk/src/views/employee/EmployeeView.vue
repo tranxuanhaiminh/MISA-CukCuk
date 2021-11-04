@@ -55,8 +55,8 @@ export default {
     BasePagination,
     BaseLoading,
   },
-  created() {},
   mounted: function () {
+    console.log(1)
     // Hiển thị loading:
     var vm = this;
     vm.isLoading = true;

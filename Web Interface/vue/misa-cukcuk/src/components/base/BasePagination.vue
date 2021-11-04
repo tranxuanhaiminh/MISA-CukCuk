@@ -13,7 +13,7 @@
       <a class="misa-pagination misa-pagination-number misa-paging-selected"
         >1</a
       >
-      <a class="misa-pagination misa-pagination-number">2</a>
+      <a href="" class="misa-pagination misa-pagination-number">2</a>
       <a class="misa-pagination misa-pagination-number">3</a>
       <a class="misa-pagination misa-pagination-number">4</a>
       <a

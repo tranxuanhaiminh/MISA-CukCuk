@@ -14,6 +14,7 @@ function initEvents() {
     // Khi bấm vào Combobox
     $.each($('.misa-cbx-wrapper'), function (index, cbx) {
         $(cbx).on('click', toggleCbx.bind(this))
+        console.log(this)
     })
 
     // Khi chọn 1 trong các option trong Combobox
@@ -137,7 +138,7 @@ function saveEmployeeInfo() {
     $.each(dateinputs, function (index, item) {
         dateinputs[index] = $(item).val() === "" ? null : (new Date($(item).val())).toISOString();
     })
-
+    debugger
     // + Tạo object
     var employee = {};
 
@@ -354,6 +355,7 @@ function toggleCbx() {
 }
 
 function selectCbx() {
+    console.log(this);
     if (!$(this).hasClass('misa-cbx-selected')) {
         $(this).parent().find('.misa-cbx-selected').removeClass('misa-cbx-selected');
         $(this).addClass('misa-cbx-selected');

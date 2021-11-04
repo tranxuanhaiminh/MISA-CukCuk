@@ -2,8 +2,15 @@
   <div id="app">
     <TheHeader />
     <TheMenu />
-    <TheContent @showForm="showFormNew" @showFormDetails="showFormDetails"/>
-    <EmployeeDetail v-show="isShow" @closeForm="closeForm" :employee = "employee"/>
+    <TheContent @showForm="show" @showFormDetails="showFormDetails" />
+    <EmployeeDetail
+      v-show="isShow"
+      @closeForm="closeForm"
+      :employee="employee"
+    />
+    <BaseDraggableModal
+      @closeForm="closeForm"
+      :employee="employee"/>
   </div>
 </template>
 
@@ -12,6 +19,7 @@ import TheHeader from "./components/layout/TheHeader.vue";
 import TheMenu from "./components/layout/TheMenu.vue";
 import EmployeeDetail from "./views/employee/EmployeeDetail.vue";
 import TheContent from "./components/layout/ThePage.vue";
+import BaseDraggableModal from "./components/base/BaseDraggableModal.vue";
 
 export default {
   name: "App",
@@ -20,19 +28,27 @@ export default {
     TheMenu,
     EmployeeDetail,
     TheContent,
+    BaseDraggableModal,
   },
 
   data() {
     return {
+      height:600,
       isShow: false,
-      employee: {}
+      employee: {},
     };
   },
 
   methods: {
+    show() {
+      this.$modal.show("hello-world");
+    },
+    hide() {
+      this.$modal.hide("hello-world");
+    },
     showFormNew() {
       this.isShow = true;
-      this.employee = {}
+      this.employee = {};
     },
 
     closeForm() {

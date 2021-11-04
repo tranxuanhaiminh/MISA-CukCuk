@@ -305,11 +305,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Home\\Minh\\Documents\\MISA-INTERN\\Net Core\\MISA.CukCuk.Api\\MISA.CukCuk.Api\\MISA.CukCuk.Api.csproj",
+      "projectUniqueName": "E:\\Home\\Minh\\Documents\\MISA-INTERN\\Exercice\\Net Core\\MISA.CukCuk.Api\\MISA.CukCuk.Api\\MISA.CukCuk.Api.csproj",
       "projectName": "MISA.CukCuk.Api",
-      "projectPath": "E:\\Home\\Minh\\Documents\\MISA-INTERN\\Net Core\\MISA.CukCuk.Api\\MISA.CukCuk.Api\\MISA.CukCuk.Api.csproj",
+      "projectPath": "E:\\Home\\Minh\\Documents\\MISA-INTERN\\Exercice\\Net Core\\MISA.CukCuk.Api\\MISA.CukCuk.Api\\MISA.CukCuk.Api.csproj",
       "packagesPath": "C:\\Users\\Minh\\.nuget\\packages\\",
-      "outputPath": "E:\\Home\\Minh\\Documents\\MISA-INTERN\\Net Core\\MISA.CukCuk.Api\\MISA.CukCuk.Api\\obj\\",
+      "outputPath": "E:\\Home\\Minh\\Documents\\MISA-INTERN\\Exercice\\Net Core\\MISA.CukCuk.Api\\MISA.CukCuk.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -330,11 +330,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "E:\\Home\\Minh\\Documents\\MISA-INTERN\\Net Core\\MISA.CukCuk.Api\\MISA.Core\\MISA.Core.csproj": {
-              "projectPath": "E:\\Home\\Minh\\Documents\\MISA-INTERN\\Net Core\\MISA.CukCuk.Api\\MISA.Core\\MISA.Core.csproj"
+            "E:\\Home\\Minh\\Documents\\MISA-INTERN\\Exercice\\Net Core\\MISA.CukCuk.Api\\MISA.Core\\MISA.Core.csproj": {
+              "projectPath": "E:\\Home\\Minh\\Documents\\MISA-INTERN\\Exercice\\Net Core\\MISA.CukCuk.Api\\MISA.Core\\MISA.Core.csproj"
             },
-            "E:\\Home\\Minh\\Documents\\MISA-INTERN\\Net Core\\MISA.CukCuk.Api\\MISA.Infrastructure\\MISA.Infrastructure.csproj": {
-              "projectPath": "E:\\Home\\Minh\\Documents\\MISA-INTERN\\Net Core\\MISA.CukCuk.Api\\MISA.Infrastructure\\MISA.Infrastructure.csproj"
+            "E:\\Home\\Minh\\Documents\\MISA-INTERN\\Exercice\\Net Core\\MISA.CukCuk.Api\\MISA.Infrastructure\\MISA.Infrastructure.csproj": {
+              "projectPath": "E:\\Home\\Minh\\Documents\\MISA-INTERN\\Exercice\\Net Core\\MISA.CukCuk.Api\\MISA.Infrastructure\\MISA.Infrastructure.csproj"
             }
           }
         }

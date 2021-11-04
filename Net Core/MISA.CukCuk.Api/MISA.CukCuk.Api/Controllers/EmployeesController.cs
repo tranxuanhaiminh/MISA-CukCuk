@@ -6,11 +6,8 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Data;
 using MISA.Core.Entities;
-using MISA.Core.Services;
-using MISA.Core.Enum;
 using MISA.Core.Const;
 using MISA.Core.Interfaces.Services;
-using MISA.Infrastructure.Repository;
 using MISA.Core.Interfaces.Infrastructure;
 
 namespace MISA.CukCuk.Api.Controllers

@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\MISA.Core",
+    "\\MISA.Core\\Interfaces",
+    "\\MISA.Core\\Interfaces\\Infrastructure",
+    "\\MISA.Core\\Interfaces\\Services",
+    "\\MISA.Core\\Services",
+    "\\MISA.CukCuk.Api",
+    "\\MISA.CukCuk.Api\\Controllers",
+    "\\MISA.Infrastructure",
+    "\\MISA.Infrastructure\\Repository"
+  ],
+  "SelectedNode": "\\MISA.CukCuk.Api\\Controllers\\EmployeesController.cs",
+  "PreviewInSolutionExplorer": false
+}

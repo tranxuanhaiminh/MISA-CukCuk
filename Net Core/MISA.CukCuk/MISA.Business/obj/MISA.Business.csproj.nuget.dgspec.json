@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Home\\Minh\\Documents\\MISA-INTERN\\Net Core\\MISA.CukCuk\\MISA.Business\\MISA.Business.csproj": {}
+    "E:\\Home\\Minh\\Documents\\MISA-INTERN\\Exercice\\Net Core\\MISA.CukCuk\\MISA.Business\\MISA.Business.csproj": {}
   },
   "projects": {
-    "E:\\Home\\Minh\\Documents\\MISA-INTERN\\Net Core\\MISA.CukCuk\\MISA.Business\\MISA.Business.csproj": {
+    "E:\\Home\\Minh\\Documents\\MISA-INTERN\\Exercice\\Net Core\\MISA.CukCuk\\MISA.Business\\MISA.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Home\\Minh\\Documents\\MISA-INTERN\\Net Core\\MISA.CukCuk\\MISA.Business\\MISA.Business.csproj",
+        "projectUniqueName": "E:\\Home\\Minh\\Documents\\MISA-INTERN\\Exercice\\Net Core\\MISA.CukCuk\\MISA.Business\\MISA.Business.csproj",
         "projectName": "MISA.Business",
-        "projectPath": "E:\\Home\\Minh\\Documents\\MISA-INTERN\\Net Core\\MISA.CukCuk\\MISA.Business\\MISA.Business.csproj",
+        "projectPath": "E:\\Home\\Minh\\Documents\\MISA-INTERN\\Exercice\\Net Core\\MISA.CukCuk\\MISA.Business\\MISA.Business.csproj",
         "packagesPath": "C:\\Users\\Minh\\.nuget\\packages\\",
-        "outputPath": "E:\\Home\\Minh\\Documents\\MISA-INTERN\\Net Core\\MISA.CukCuk\\MISA.Business\\obj\\",
+        "outputPath": "E:\\Home\\Minh\\Documents\\MISA-INTERN\\Exercice\\Net Core\\MISA.CukCuk\\MISA.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\Home\\Minh\\Documents\\MISA-INTERN\\Net Core\\MISA.CukCuk\\MISA.Common\\MISA.Common.csproj": {
-                "projectPath": "E:\\Home\\Minh\\Documents\\MISA-INTERN\\Net Core\\MISA.CukCuk\\MISA.Common\\MISA.Common.csproj"
+              "E:\\Home\\Minh\\Documents\\MISA-INTERN\\Exercice\\Net Core\\MISA.CukCuk\\MISA.Common\\MISA.Common.csproj": {
+                "projectPath": "E:\\Home\\Minh\\Documents\\MISA-INTERN\\Exercice\\Net Core\\MISA.CukCuk\\MISA.Common\\MISA.Common.csproj"
               },
-              "E:\\Home\\Minh\\Documents\\MISA-INTERN\\Net Core\\MISA.CukCuk\\MISA.DataAccess\\MISA.DataAccess.csproj": {
-                "projectPath": "E:\\Home\\Minh\\Documents\\MISA-INTERN\\Net Core\\MISA.CukCuk\\MISA.DataAccess\\MISA.DataAccess.csproj"
+              "E:\\Home\\Minh\\Documents\\MISA-INTERN\\Exercice\\Net Core\\MISA.CukCuk\\MISA.DataAccess\\MISA.DataAccess.csproj": {
+                "projectPath": "E:\\Home\\Minh\\Documents\\MISA-INTERN\\Exercice\\Net Core\\MISA.CukCuk\\MISA.DataAccess\\MISA.DataAccess.csproj"
               }
             }
           }
@@ -79,14 +79,14 @@
         }
       }
     },
-    "E:\\Home\\Minh\\Documents\\MISA-INTERN\\Net Core\\MISA.CukCuk\\MISA.Common\\MISA.Common.csproj": {
+    "E:\\Home\\Minh\\Documents\\MISA-INTERN\\Exercice\\Net Core\\MISA.CukCuk\\MISA.Common\\MISA.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Home\\Minh\\Documents\\MISA-INTERN\\Net Core\\MISA.CukCuk\\MISA.Common\\MISA.Common.csproj",
+        "projectUniqueName": "E:\\Home\\Minh\\Documents\\MISA-INTERN\\Exercice\\Net Core\\MISA.CukCuk\\MISA.Common\\MISA.Common.csproj",
         "projectName": "MISA.Common",
-        "projectPath": "E:\\Home\\Minh\\Documents\\MISA-INTERN\\Net Core\\MISA.CukCuk\\MISA.Common\\MISA.Common.csproj",
+        "projectPath": "E:\\Home\\Minh\\Documents\\MISA-INTERN\\Exercice\\Net Core\\MISA.CukCuk\\MISA.Common\\MISA.Common.csproj",
         "packagesPath": "C:\\Users\\Minh\\.nuget\\packages\\",
-        "outputPath": "E:\\Home\\Minh\\Documents\\MISA-INTERN\\Net Core\\MISA.CukCuk\\MISA.Common\\obj\\",
+        "outputPath": "E:\\Home\\Minh\\Documents\\MISA-INTERN\\Exercice\\Net Core\\MISA.CukCuk\\MISA.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -137,14 +137,14 @@
         }
       }
     },
-    "E:\\Home\\Minh\\Documents\\MISA-INTERN\\Net Core\\MISA.CukCuk\\MISA.DataAccess\\MISA.DataAccess.csproj": {
+    "E:\\Home\\Minh\\Documents\\MISA-INTERN\\Exercice\\Net Core\\MISA.CukCuk\\MISA.DataAccess\\MISA.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Home\\Minh\\Documents\\MISA-INTERN\\Net Core\\MISA.CukCuk\\MISA.DataAccess\\MISA.DataAccess.csproj",
+        "projectUniqueName": "E:\\Home\\Minh\\Documents\\MISA-INTERN\\Exercice\\Net Core\\MISA.CukCuk\\MISA.DataAccess\\MISA.DataAccess.csproj",
         "projectName": "MISA.DataAccess",
-        "projectPath": "E:\\Home\\Minh\\Documents\\MISA-INTERN\\Net Core\\MISA.CukCuk\\MISA.DataAccess\\MISA.DataAccess.csproj",
+        "projectPath": "E:\\Home\\Minh\\Documents\\MISA-INTERN\\Exercice\\Net Core\\MISA.CukCuk\\MISA.DataAccess\\MISA.DataAccess.csproj",
         "packagesPath": "C:\\Users\\Minh\\.nuget\\packages\\",
-        "outputPath": "E:\\Home\\Minh\\Documents\\MISA-INTERN\\Net Core\\MISA.CukCuk\\MISA.DataAccess\\obj\\",
+        "outputPath": "E:\\Home\\Minh\\Documents\\MISA-INTERN\\Exercice\\Net Core\\MISA.CukCuk\\MISA.DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -165,8 +165,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\Home\\Minh\\Documents\\MISA-INTERN\\Net Core\\MISA.CukCuk\\MISA.Common\\MISA.Common.csproj": {
-                "projectPath": "E:\\Home\\Minh\\Documents\\MISA-INTERN\\Net Core\\MISA.CukCuk\\MISA.Common\\MISA.Common.csproj"
+              "E:\\Home\\Minh\\Documents\\MISA-INTERN\\Exercice\\Net Core\\MISA.CukCuk\\MISA.Common\\MISA.Common.csproj": {
+                "projectPath": "E:\\Home\\Minh\\Documents\\MISA-INTERN\\Exercice\\Net Core\\MISA.CukCuk\\MISA.Common\\MISA.Common.csproj"
               }
             }
           }

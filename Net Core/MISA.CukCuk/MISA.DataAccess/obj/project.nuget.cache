@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bJ+qWiglX+8NbInlAv4D5KkIUQ8lhIyh5wCiX6T/5krRRKSZ/FhcRwvA1WsXpzfUoVwkwidvmFH+BLRbQEAQMw==",
+  "dgSpecHash": "+YrPz6z03IeRjKPafd7hWjTfgHKMKsxfUuLRXt2kZNLi0P5mvc4zeaHxJdXLYkTH+cnBIPoL7jkM3fc9Hk89zQ==",
   "success": true,
-  "projectFilePath": "E:\\Home\\Minh\\Documents\\MISA-INTERN\\Net Core\\MISA.CukCuk\\MISA.DataAccess\\MISA.DataAccess.csproj",
+  "projectFilePath": "E:\\Home\\Minh\\Documents\\MISA-INTERN\\Exercice\\Net Core\\MISA.CukCuk\\MISA.DataAccess\\MISA.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Minh\\.nuget\\packages\\dapper\\2.0.90\\dapper.2.0.90.nupkg.sha512",
     "C:\\Users\\Minh\\.nuget\\packages\\mysqlconnector\\1.3.11\\mysqlconnector.1.3.11.nupkg.sha512"
